@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    background: rgb(172, 243, 243);
+    height: 80px;
+    width: 100vw;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav > a {
+    text-decoration: none;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px;
+    background: cyan;
+}
+
+.nav > a:hover {
+    background: red;
+    font-size: 40px;
+}
